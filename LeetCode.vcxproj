@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F8E605D6-7D72-4052-89C4-F0CFA4F874FD}</ProjectGuid>
+    <RootNamespace>LeetCode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Anagrams.h" />
+    <ClInclude Include="BinaryTreeInorderTraversal.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversal.h" />
+    <ClInclude Include="BinaryTreeZigzagLevelOrderTraversal.h" />
+    <ClInclude Include="Candy.h" />
+    <ClInclude Include="CloneGraph.h" />
+    <ClInclude Include="Combinations.h" />
+    <ClInclude Include="CombinationSum.h" />
+    <ClInclude Include="CombinationSumII.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="CopyListwithRandomPointer.h" />
+    <ClInclude Include="DecodeWays.h" />
+    <ClInclude Include="FirstMissingPositive.h" />
+    <ClInclude Include="GreyCode.h" />
+    <ClInclude Include="InsertInterval.h" />
+    <ClInclude Include="InterleavingString.h" />
+    <ClInclude Include="JumpGame.h" />
+    <ClInclude Include="JumpGameII.h" />
+    <ClInclude Include="LargestRectangleinHistogram.h" />
+    <ClInclude Include="MaximalRectangle.h" />
+    <ClInclude Include="MergeIntervals.h" />
+    <ClInclude Include="MultiplyStrings.h" />
+    <ClInclude Include="PalindromePartitioning.h" />
+    <ClInclude Include="PalindromePartitioningII.h" />
+    <ClInclude Include="PartitionList.h" />
+    <ClInclude Include="Permutations.h" />
+    <ClInclude Include="Powxn.h" />
+    <ClInclude Include="RecoverBinarySearchTree.h" />
+    <ClInclude Include="RemoveDuplicatesfromSortedArray.h" />
+    <ClInclude Include="RemoveDuplicatesfromSortedArrayII.h" />
+    <ClInclude Include="RemoveDuplicatesfromSortedList.h" />
+    <ClInclude Include="RemoveDuplicatesfromSortedListII.h" />
+    <ClInclude Include="RemoveNthNodeFromEndofList.h" />
+    <ClInclude Include="RestoreIPAddresses.h" />
+    <ClInclude Include="ReverseLinkedListII.h" />
+    <ClInclude Include="RotateImage.h" />
+    <ClInclude Include="SameTree.h" />
+    <ClInclude Include="ScrambleString.h" />
+    <ClInclude Include="SearchinRotatedSortedArray.h" />
+    <ClInclude Include="SearchinRotatedSortedArrayII.h" />
+    <ClInclude Include="SingleNumber.h" />
+    <ClInclude Include="SingleNumberII.h" />
+    <ClInclude Include="Subsets.h" />
+    <ClInclude Include="SubsetsII.h" />
+    <ClInclude Include="SymmetricTree.h" />
+    <ClInclude Include="TrappingRainWater.h" />
+    <ClInclude Include="UniqueBinarySearchTrees.h" />
+    <ClInclude Include="UniqueBinarySearchTreesII.h" />
+    <ClInclude Include="ValidateBinarySearchTree.h" />
+    <ClInclude Include="WildcardMatching.h" />
+    <ClInclude Include="WordBreak.h" />
+    <ClInclude Include="WordBreakII.h" />
+    <ClInclude Include="WordSearch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
